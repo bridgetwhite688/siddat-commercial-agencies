@@ -46,6 +46,7 @@ body {
 }
 #firstHeader{
     background-color: #FF000D;
+    padding-top: 5px;
 }
 /*  
 #secondHeader{
@@ -65,8 +66,8 @@ body {
     padding-top: 5px;
 }
 #logoImage{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 .logoAndCompanyName{
     display: flex;
@@ -78,13 +79,53 @@ body {
 }
 #rowFirstHeader{
     display: flex;
-    column-gap: 20px;
+    column-gap: 40px;
+}
+.workingHours, .locationParagraph{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
 }
 h5{
     font-weight: bolder;
 }
 #whatsAppButton{
     color: emerald green;
+}
+#svg1{
+    width: 30px;
+    height: 30px;
+}
+#anchorTag, .anchorTag{
+    color: aliceblue;
+}
+#homeButton{
+    color: #4169E1;
+}
+#homeButton1{
+    color: #4169E1;
+    font-size: x-large;
+}
+#navButton1{
+    color: #FF000D;
+}
+#navButton{
+    color: #FF000D;
+}
+#managementPhoto{
+    border-radius: 8px;
+}
+#testimonials{
+    background-color: black;
+}
+.testimonials{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 20px;
 }
 .btn-primary {
     --bs-btn-color: #fff;
