@@ -8,16 +8,7 @@ if (isset($_POST['UpdateProfile'])) {
 	//dd($_POST);
 	unset($_POST['UpdateProfile']);
 	$res = updateDetails($_POST, 'users', 'user_id', $_POST['user_id']);
-    // $user_name = mysqli_real_escape_string($mysqli, $_POST['user_names']);
-    // $user_email = mysqli_real_escape_string($mysqli, $_POST['user_email']);
-    // $user_ward_id = mysqli_real_escape_string($mysqli, $_POST['user_ward_id']);
-    // $user_phone_number = mysqli_real_escape_string($mysqli, $_POST['user_phone_number']);
-    // $user_access_level = mysqli_real_escape_string($mysqli, $_POST['user_access_level']);
-    // $user_id = mysqli_real_escape_string($mysqli, $_SESSION['user_id']);
-
-    // /* Persist */
-    // $update_querry = "UPDATE users SET user_names = '{$user_name}', user_email = '{$user_email}', user_ward_id = '{$user_ward_id}', user_phone_number = '{$user_phone_number}', user_access_level = '{$user_access_level}'
-    // WHERE user_id ='{$user_id}'";
+    
 
     if ($res) {
         $success = "Profile updated";
